@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (myBluetooth == null) {
             //Mostramos un mensaje, indicando al usuario que no tiene conexión bluetooth disponible
-            Toast.makeText(getApplicationContext(), "Bluetooth no disponible", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "Bluetooth no disponible.", Toast.LENGTH_LONG).show();
 
             //finalizamos la aplicación
             finish();
